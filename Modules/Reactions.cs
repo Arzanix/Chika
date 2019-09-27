@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Chika.Common;
 using Discord;
 using Discord.Commands;
+using Discord.WebSocket;
 
 namespace Chika.Modules
 {
@@ -35,6 +36,7 @@ namespace Chika.Modules
             {
                 int index = rnd.Next(kisses.Count);
                 var embed = new EmbedBuilder();
+                embed.WithColor(128, 0, 128);
                 embed.WithAuthor($"{Context.User.Username} kissed {user}");
                 embed.WithImageUrl(kisses[index]);
                 embed.WithFooter($"[DEBUG] : {kisses[index]}");
@@ -73,6 +75,7 @@ namespace Chika.Modules
             {
                 int index = rnd.Next(cries.Count);
                 var embed = new EmbedBuilder();
+                embed.WithColor(128, 128, 128);
                 embed.WithAuthor($"{Context.User.Username} is sad and want's to cry. :frown:");
                 embed.WithImageUrl(cries[index]);
                 embed.WithFooter($"[DEBUG] : {cries[index]}");
@@ -101,10 +104,47 @@ namespace Chika.Modules
             try
             {
                 int index = rnd.Next(happy.Count);
+                
                 var embed = new EmbedBuilder();
+                embed.WithColor(177, 156, 217);
                 embed.WithAuthor($"{Context.User.Username} is supper happy and is living it 💃");
                 embed.WithImageUrl(happy[index]);
                 embed.WithFooter($"[DEBUG] : {happy[index]}");
+                await Context.Channel.SendMessageAsync("", false, embed: embed.Build()).ConfigureAwait(false);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
+        }
+
+        [Command("hug")]
+        [Description("hug @User")]
+        [RequireBotPermission(GuildPermission.AttachFiles)]
+        [RequireBotPermission(GuildPermission.EmbedLinks)]
+        public async Task HugAsync(SocketGuildUser user)
+        {
+            var hugs = new List<string>()
+            {
+                "https://i.imgur.com/586LP1r.gif",
+                "https://i.imgur.com/XOYzWBp.gif",
+                "https://i.imgur.com/LvJlpah.gif",
+                "https://i.imgur.com/vSaCl29.gif",
+                "https://i.imgur.com/pNXyuw2.gif",
+                "https://i.imgur.com/gLP0Oxw.gif",
+                "https://i.imgur.com/kxFo1VD.gif",
+                "https://i.imgur.com/m9n2BTC.gif",
+                "https://i.imgur.com/qkpeLBN.gif",
+            };
+            try
+            {
+                int index = rnd.Next(hugs.Count);
+                var embed = new EmbedBuilder();
+                embed.WithColor(230, 143, 172);
+                embed.WithAuthor($"{Context.User.Username} hugged {user}");
+                embed.WithImageUrl(hugs[index]);
+                embed.WithFooter($"[DEBUG] : {hugs[index]}");
                 await Context.Channel.SendMessageAsync("", false, embed: embed.Build()).ConfigureAwait(false);
             }
             catch (Exception e)
