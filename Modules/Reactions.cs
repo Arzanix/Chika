@@ -22,8 +22,8 @@ namespace Chika.Modules
         {
             var kisses = new List<string>()
             {
-                "https://tenor.com/view/anime-kiss-love-sweet-gif-5095865",
-                "https://tenor.com/view/kiss-kiss-girl-kiss-girl-anime-anime-couple-gif-14374955",
+                "https://i.imgur.com/3m0i5yp.gif",
+                "https://i.imgur.com/glg0KC0.gif",
                 "https://i.imgur.com/II1bakc.gif",
                 "https://i.imgur.com/II1bakc.gif",
                 "https://i.imgur.com/7GhTplD.gif",
