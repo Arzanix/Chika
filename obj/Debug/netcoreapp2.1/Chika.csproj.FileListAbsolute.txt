@@ -9,3 +9,14 @@ C:\Users\majes\OneDrive\Desktop\VertechStudio\Git\Chika\obj\Debug\netcoreapp2.1\
 C:\Users\majes\OneDrive\Desktop\VertechStudio\Git\Chika\obj\Debug\netcoreapp2.1\Chika.AssemblyInfo.cs
 C:\Users\majes\OneDrive\Desktop\VertechStudio\Git\Chika\obj\Debug\netcoreapp2.1\Chika.dll
 C:\Users\majes\OneDrive\Desktop\VertechStudio\Git\Chika\obj\Debug\netcoreapp2.1\Chika.pdb
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.csproj.CoreCompileInputs.cache
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.AssemblyInfoInputs.cache
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.AssemblyInfo.cs
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\bin\Debug\netcoreapp2.1\Chika.deps.json
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\bin\Debug\netcoreapp2.1\Chika.runtimeconfig.json
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\bin\Debug\netcoreapp2.1\Chika.runtimeconfig.dev.json
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\bin\Debug\netcoreapp2.1\Chika.dll
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\bin\Debug\netcoreapp2.1\Chika.pdb
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.dll
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.pdb
+C:\Users\Nav\Desktop\Vertech Studio\Gits\Chika\obj\Debug\netcoreapp2.1\Chika.csprojAssemblyReference.cache

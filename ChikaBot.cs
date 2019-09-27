@@ -12,9 +12,14 @@ using System.Reflection;
 using System.Threading.Tasks;
 namespace Chika
 {
-    class Program
+    public class ChikaBot
     {
-        static void Main(string[] args) => new Program().Start().GetAwaiter().GetResult();
+        //TODO Add this bs to protected list
+        public const ulong Arzanix = 520937113441796096;
+        public const ulong TurkeyLoverz = 408647391298846722;
+        
+
+        static void Main(string[] args) => new ChikaBot().Start().GetAwaiter().GetResult();
 
         #region Private fields
         private DiscordSocketClient _client;

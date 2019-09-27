@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\majes\\OneDrive\\Desktop\\VertechStudio\\Git\\Chika\\Chika.csproj": {}
+    "C:\\Users\\Nav\\Desktop\\Vertech Studio\\Gits\\Chika\\Chika.csproj": {}
   },
   "projects": {
-    "C:\\Users\\majes\\OneDrive\\Desktop\\VertechStudio\\Git\\Chika\\Chika.csproj": {
+    "C:\\Users\\Nav\\Desktop\\Vertech Studio\\Gits\\Chika\\Chika.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\majes\\OneDrive\\Desktop\\VertechStudio\\Git\\Chika\\Chika.csproj",
+        "projectUniqueName": "C:\\Users\\Nav\\Desktop\\Vertech Studio\\Gits\\Chika\\Chika.csproj",
         "projectName": "Chika",
-        "projectPath": "C:\\Users\\majes\\OneDrive\\Desktop\\VertechStudio\\Git\\Chika\\Chika.csproj",
-        "packagesPath": "C:\\Users\\majes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\majes\\OneDrive\\Desktop\\VertechStudio\\Git\\Chika\\obj\\",
+        "projectPath": "C:\\Users\\Nav\\Desktop\\Vertech Studio\\Gits\\Chika\\Chika.csproj",
+        "packagesPath": "C:\\Users\\Nav\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Nav\\Desktop\\Vertech Studio\\Gits\\Chika\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\majes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Nav\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -48,6 +48,7 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
